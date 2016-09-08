@@ -1,0 +1,11 @@
+[Unit]
+Description=KDE cheatcodes in live media
+ConditionPathExists=/usr/share/@CODENAME_SAFE@-kde-settings/
+After=@CODENAME_SAFE@-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/@CODENAME_SAFE@-kde-settings/kde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

@@ -1,0 +1,3 @@
+lxde/lxterminal  usr/share/@CODENAME_SAFE@-lxde-settings
+lxde/etc         usr/share/@CODENAME_SAFE@-lxde-settings
+lxde/schemas     usr/share/@CODENAME_SAFE@-lxde-settings

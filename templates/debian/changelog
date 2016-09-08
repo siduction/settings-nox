@@ -1,0 +1,5 @@
+@CODENAME_SAFE@-@FLAVOUR@-settings (@VERSION@) @DISTRIBUTION@; urgency=medium
+
+  * Initial Release.
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 16 Jul 2015 01:57:36 +0200

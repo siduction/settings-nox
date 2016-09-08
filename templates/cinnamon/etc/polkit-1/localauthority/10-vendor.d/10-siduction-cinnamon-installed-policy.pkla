@@ -1,0 +1,4 @@
+[Laptop CPU Frequency scaling]
+Identity=unix-group:users
+Action=org.cinnamon.cpufreqselector
+ResultActive=yes

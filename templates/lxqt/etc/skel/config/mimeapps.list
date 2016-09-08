@@ -1,0 +1,5 @@
+[Default Applications]
+inode/directory=pcmanfm-qt.desktop
+
+[Added Associations]
+inode/directory=pcmanfm-qt.desktop;

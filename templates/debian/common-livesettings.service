@@ -1,0 +1,11 @@
+[Unit]
+Description=Common cheatcodes in live media
+ConditionPathExists=/usr/share/@CODENAME_SAFE@-common-livesettings/
+After=sysinit.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/@CODENAME_SAFE@-common-livesettings/common-cheatcodes start
+
+[Install]
+WantedBy=basic.target
