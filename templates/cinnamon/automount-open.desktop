@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Automount Open file
-Icon=
-Exec=/usr/share/@CODENAME_SAFE@-cinnamon-settings/automount-open
-Terminal=false
-Type=Application
-Categories=Utility;
-X-GNOME-Autostart-enabled=true
-NoDisplay=true

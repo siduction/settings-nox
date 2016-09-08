@@ -1,5 +1,0 @@
-kde/etc/*                  usr/share/@CODENAME_SAFE@-kde-settings/etc
-kde/share                  usr/share/@CODENAME_SAFE@-kde-settings/
-kde/*.js                   usr/share/@CODENAME_SAFE@-kde-settings/
-
-kde/org.siduction.desktop  usr/share/plasma/look-and-feel

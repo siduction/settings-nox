@@ -1,2 +1,0 @@
-cinnamon/schemas/live/*.gschema.override   usr/share/glib-2.0/schemas
-cinnamon/cinnamon-cheatcodes               usr/share/@CODENAME_SAFE@-cinnamon-livesettings

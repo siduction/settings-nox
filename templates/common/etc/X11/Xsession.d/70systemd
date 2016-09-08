@@ -1,5 +1,0 @@
-# set SYSTEMD_PAGER to less
-if [ -f /etc/default/systemd ]; then
-    . /etc/default/systemd
-fi
-

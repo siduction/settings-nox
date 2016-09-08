@@ -1,5 +1,0 @@
-mate/automount-open.desktop                    usr/share/@CODENAME_SAFE@-mate-settings/
-mate/mate-background-properties/*.xml          usr/share/mate-background-properties/
-mate/schemas/installed/*.gschema.override      usr/share/glib-2.0/schemas
-mate/etc/*                                     usr/share/@CODENAME_SAFE@-mate-settings/etc/
-

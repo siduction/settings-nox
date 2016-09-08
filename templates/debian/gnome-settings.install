@@ -1,5 +1,0 @@
-gnome/automount-open.desktop                     usr/share/@CODENAME_SAFE@-gnome-settings/
-gnome/gnome-background-properties/*.xml          usr/share/gnome-background-properties/
-gnome/schemas/installed/*.gschema.override       usr/share/glib-2.0/schemas
-gnome/etc/*                                      usr/share/@CODENAME_SAFE@-gnome-settings/etc/
-gnome/usr                                        usr/share/@CODENAME_SAFE@-gnome-settings/

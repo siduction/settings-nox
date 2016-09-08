@@ -1,9 +1,0 @@
-#!/bin/sh
-
-PATH=/sbin:/usr/sbin:/bin:/usr/bin
-
-BROWSER=$(which firefox 2>/dev/null)
-if [ -x "${BROWSER}" ]; then
-    update-alternatives --set x-www-browser "${BROWSER}" >/dev/null
-fi
-

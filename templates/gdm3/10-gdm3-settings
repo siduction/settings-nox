@@ -1,7 +1,0 @@
-[org/gnome/desktop/background]
-picture-uri='file:///usr/share/wallpapers/@CODENAME_SAFE@.jpg'
-picture-options='stretched'
-
-[org/gnome/login-screen]
-logo='/usr/share/icons/hicolor/48x48/apps/siduction.png'
-fallback-logo='/usr/share/icons/hicolor/48x48/apps/siduction.png'

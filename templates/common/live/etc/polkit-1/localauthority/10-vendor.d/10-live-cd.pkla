@@ -1,7 +1,0 @@
-[Live CD user permissions]
-Identity=unix-user:@FLL_LIVE_USER@
-Action=*
-ResultAny=yes
-ResultInactive=no
-ResultActive=yes
-

@@ -1,9 +1,0 @@
-[ActiveShadow]
-Enabled=false
-
-[Windeco]
-ButtonSize=ButtonSmall
-CloseWindowFromMenuButton=true
-DrawTitleOutline=false
-SeparatorMode=SeparatorAlways
-UseNarrowButtonSpacing=true
