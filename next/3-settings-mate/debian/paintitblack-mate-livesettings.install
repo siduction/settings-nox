@@ -1,0 +1,2 @@
+mate/schemas/live/*.gschema.override  usr/share/glib-2.0/schemas
+mate/mate-cheatcodes                  usr/share/paintitblack-mate-livesettings

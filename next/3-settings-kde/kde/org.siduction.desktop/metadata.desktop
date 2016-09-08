@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment=Siduction Desktop Design Language by Alf Gaida
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Name=Siduction
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Alf Gaida
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=agaida@siduction.org
+X-KDE-PluginInfo-License=GPLv2+
+X-KDE-PluginInfo-Name=org.siduction.desktop
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Website=http://git.siduction.org
+X-Plasma-MainScript=defaults

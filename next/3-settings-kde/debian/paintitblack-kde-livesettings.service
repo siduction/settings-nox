@@ -1,0 +1,11 @@
+[Unit]
+Description=KDE cheatcodes in live media
+ConditionPathExists=/usr/share/paintitblack-kde-settings/
+After=paintitblack-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/paintitblack-kde-settings/kde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

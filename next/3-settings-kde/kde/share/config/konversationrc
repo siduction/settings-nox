@@ -1,0 +1,96 @@
+[Aliases]
+AliasList=uptime /exec uptime,tinyurl /exec tinyurl,sysinfo /exec sysinfo,sayclip /exec sayclip,video /exec media video,audio /exec media audio,media /exec media,mail /exec mail,kdeversion /exec kdeversion,gauge /exec gauge,fortune /exec fortune,cmd /exec cmd,bug /exec bug
+
+[Appearance]
+TimestampFormat=hh:mm:ss
+UseBoldNicks=true
+
+[Channel 0]
+EnableNotifications=true
+Name=#siduction
+Password=
+
+[DCC Settings]
+IPv4FallbackIface=0
+
+[Flags]
+TabPlacement=Left
+ShowServerList=false
+
+[General Options]
+AutomaticRememberLine=true
+AutomaticRememberLineOnlyOnTextChange=false
+MarkerLineInAllViews=true
+ScrollbackMax=10000
+ShowTrayIcon=true
+TrayNotify=true
+TrayNotifyOnlyOwnNick=true
+UseMultiRowInputBox=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+ChannelListNoServerSelected=1
+ChannelListWarning=1
+ClearLogfileQuestion=1
+CloseQueryAfterIgnore=1
+HideMenuBarWarning=1
+HideOnCloseInfo=0
+IgnoreNick=1
+Invitation=0
+QuitChannelTab=1
+QuitDCCChatTab=1
+QuitQueryTab=1
+QuitServerTab=1
+QuitWithActiveDccTransfers=1
+ReconnectWithDifferentServer=1
+ReuseExistingConnection=1
+SaveLogfileNote=1
+UnignoreNick=1
+WarnEncodingConflict=1
+systemtrayquitKonversation=0
+
+[Identity 0]
+AuthType=nickserv
+AutomaticAway=false
+AutomaticUnaway=false
+AwayInactivity=10
+AwayMessage=
+AwayNick=
+AwayReason=Gone away for now
+Bot=
+Codec=UTF-8
+Ident=siducer
+InsertRememberLineOnAway=false
+KickReason=User terminated!
+Name=Default Identity
+Nicknames=siducer,siducer_,siducer__
+NickservCommand=identify
+PartReason=Konversation terminated!
+Password=
+PemClientCertFile=
+PreShellCommand=
+QuitReason=Konversation terminated!
+Realname=siducer
+ReturnMessage=
+SaslAccount=
+ShowAwayMessage=false
+
+[Server 0]
+Password=
+Port=6667
+SSLEnabled=false
+Server=irc.oftc.net
+
+[ServerGroup 0]
+AutoConnect=false
+AutoJoinChannels=Channel 0
+ChannelHistory=
+ConnectCommands=
+EnableNotifications=true
+Expanded=false
+Identity=Default Identity
+Name=OFTC
+NotifyList=
+ServerList=Server 0

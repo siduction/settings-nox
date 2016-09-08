@@ -1,0 +1,3 @@
+[org.gnome.totem]
+active-plugins = ['skipto','chapters','screenshot','media_player_keys','screensaver','movie-properties','save-file','youtube','totem-zeitgeist-dp-plugin']
+autoload-subtitles=true

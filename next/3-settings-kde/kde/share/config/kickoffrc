@@ -1,0 +1,8 @@
+[Favorites]
+FavoriteURLs=/usr/share/applications/kde4/konqbrowser.desktop,/usr/share/applications/systemsettings.desktop,/usr/share/applications/org.kde.dolphin.desktop,/usr/share/applications/org.kde.konsole.desktop,/usr/share/applications/org.kde.kwrite.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations

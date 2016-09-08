@@ -1,0 +1,4 @@
+compression-level = 9
+tar-ignore = templates
+tar-ignore = bootstrap.sh
+tar-ignore = FLAVOUR

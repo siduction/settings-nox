@@ -1,0 +1,28 @@
+#!/bin/sh
+# preinst script for #PACKAGE#
+
+set -e
+
+case "$1" in
+    install|upgrade)
+        if ! ischroot; then
+            if [ ! -d /fll ] ; then
+                echo '############################################################'
+                echo 'Installing this package is only allowed in live systems!'
+                echo 'Aborting installation.'
+                echo '############################################################'
+                exit 1
+            fi
+        fi
+        ;;
+    abort-upgrade)
+        ;;
+    *)
+        echo "preinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
+
+#DEBHELPER#
+
+exit 0
