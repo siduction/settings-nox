@@ -2,7 +2,7 @@
 set -e
 
 
-. templates/functions.sh
+source ./functions.sh
 
 source_version_info
 debian_changelog
@@ -12,35 +12,32 @@ debian_foo_basics
 basic_control nox
 debian_rules
 
-# nox
-# ===
-[ -d nox ]  && rm -r nox
-cp -a templates/nox .
+# debian
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/nox-livesettings.lintian-overrides \
+    ./debtemplate/lintian-overrides \
     > debian/${CODENAME_SAFE}-nox-livesettings.lintian-overrides
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/nox-livesettings.preinst \
+    ./debtemplate/livesettings.preinst \
     > debian/${CODENAME_SAFE}-nox-livesettings.preinst
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/nox-livesettings.install \
+    ./debtemplate/livesettings.install \
     > debian/${CODENAME_SAFE}-nox-livesettings.install
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/nox-livesettings.service \
+    ./debtemplate/livesettings.service \
     > debian/${CODENAME_SAFE}-nox-livesettings.service
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/nox-settings.install \
+    ./debtemplate/settings.install \
     > debian/${CODENAME_SAFE}-nox-settings.install
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    templates/debian/nox-settings.postinst \
+    ./debtemplate/settings.postinst \
     > debian/${CODENAME_SAFE}-nox-settings.postinst
 
 
