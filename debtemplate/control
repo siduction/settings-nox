@@ -7,11 +7,11 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
 Build-Depends: debhelper (>= 9),
                dh-systemd
 Standards-Version: 3.9.8
-Homepage: http://bugs.siduction.org/projects/siduction-settings
-Vcs-Git: git://git.siduction.org/code/siduction-settings.git
-Vcs-Browser: http://git.siduction.org/?p=code/siduction-settings.git;a=summary
+Homepage: https://git.siduction.org/extra/siduction-@FLAVOUR@
+Vcs-Git: https://git.siduction.org/extra/siduction-@FLAVOUR@.git
+Vcs-Browser: https://git.siduction.org/extra/siduction-@FLAVOUR@.git
 
-# NoX Settings
+# @FLAVOUR@ Settings
 Package: @CODENAME_SAFE@-@FLAVOUR@-settings
 Architecture: all
 Depends: ${misc:Depends},
