@@ -1,0 +1,14 @@
+#!/bin/bash
+
+WALLPAPER=patience
+CODENAME_SAFE=patience
+DESCRIPTION=Patience
+VERSION=2016.1.0
+DISTRIBUTION=unstable
+
+# Gdm3 and Gnome settings
+BACKGROUND_RENDERING_OPTION="stretched"
+
+
+# FLL_LIVE_USER for 10-live-cd.pkla
+FLL_LIVE_USER=siducer
