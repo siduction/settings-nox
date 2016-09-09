@@ -54,6 +54,8 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 
 ## template
 
+cp -a template/* .
+
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./template/nox-cheatcodes \
