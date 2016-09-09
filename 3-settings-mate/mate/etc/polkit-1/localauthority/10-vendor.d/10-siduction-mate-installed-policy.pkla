@@ -1,4 +1,0 @@
-[Laptop CPU Frequency scaling]
-Identity=unix-group:users
-Action=org.mate.cpufreqselector
-ResultActive=yes

@@ -1,5 +1,0 @@
-cinnamon/automount-open.desktop                       usr/share/paintitblack-cinnamon-settings/
-cinnamon/cinnamon-background-properties/*.xml         usr/share/cinnamon-background-properties/
-cinnamon/schemas/installed/*.gschema.override         usr/share/glib-2.0/schemas
-cinnamon/etc/*                                        usr/share/paintitblack-cinnamon-settings/etc
-cinnamon/usr/*					      usr/share/paintitblack-cinnamon-settings/usr

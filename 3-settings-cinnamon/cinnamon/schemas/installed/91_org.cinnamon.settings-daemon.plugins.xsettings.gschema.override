@@ -1,7 +1,0 @@
-[org.cinnamon.settings-daemon.plugins.xsettings]
-antialiasing='rgba'
-hinting='medium'
-
-[org.cinnamon.settings-daemon.peripherals.touchpad]
-tap-to-click=true
-disable-while-typing=true

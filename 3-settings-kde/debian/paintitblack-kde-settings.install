@@ -1,5 +1,0 @@
-kde/etc/*                  usr/share/paintitblack-kde-settings/etc
-kde/share                  usr/share/paintitblack-kde-settings/
-kde/*.js                   usr/share/paintitblack-kde-settings/
-
-kde/org.siduction.desktop  usr/share/plasma/look-and-feel
