@@ -13,14 +13,15 @@
 
 
 # ignored debian $foo
-/*/*/debian/thunderstruck-*/
-/*/*/debian/paintitblack-*/
-/*/*/debian/whiteroom-*/
+/debian/thunderstruck-*/
+/debian/paintitblack-*/
+/debian/patience-*/
+/debian/whiteroom-*/
 
-/*/*/debian/files
-/*/*/debian/debhelper-build-stamp
-/*/*/debian/*.debhelper
-/*/*/debian/*.log
-/*/*/debian/*.substvars
-/*/*/debian/tmp
+/debian/files
+/debian/debhelper-build-stamp
+/debian/*.debhelper
+/debian/*.log
+/debian/*.substvars
+/debian/tmp
 
