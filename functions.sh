@@ -84,7 +84,7 @@ function grub_template {
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${1}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-        ./template/template.cfg \
+        ./template/etc/default/grub.d/template.cfg \
         > etc/default/grub.d/siduction.cfg
 }
 
