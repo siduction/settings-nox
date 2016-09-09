@@ -58,7 +58,7 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
     ./template/nox-cheatcodes \
     > ./nox-cheatcodes
-
+chmod 755 ./nox-cheatcodes
 
 grub_template nox
 
