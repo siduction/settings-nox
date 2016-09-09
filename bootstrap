@@ -52,6 +52,13 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./debtemplate/settings.postinst \
     > ./debian/${CODENAME_SAFE}-nox-settings.postinst
 
+## template
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./template/nox-cheatcodes \
+    > ./nox-cheatcodes
+
 
 grub_template nox
 
