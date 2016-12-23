@@ -18,7 +18,6 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
     ./debtemplate/copyright \
     > ./debian/copyright
-chmod 755 ./debian/get-template
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DISPLAY\@/${DISPLAY}/g" \
@@ -53,6 +52,7 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     > ./debian/${CODENAME_SAFE}-nox-settings.postinst
 
 ## template
+## fix me delete before copy
 
 cp -a template/* .
 

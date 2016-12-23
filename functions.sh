@@ -22,7 +22,7 @@ function source_version_info {
 # eventually cleanup old builds
 function cleanup_old_builds {
     if [ -f ./debian/rules ]; then
-        debuild -d clean
+        debclean -d
         rm debian/rules
         echo "old builds cleaned up, run bootstrap again!"
         return 1
@@ -70,8 +70,8 @@ function basic_control {
         -e "s/\@VERSION\@/${VERSION}/g" \
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-        debtemplate/control \
-        > debian/control
+        ./debtemplate/control \
+        > ./debian/control
 }
 
 
@@ -85,7 +85,7 @@ function grub_template {
         -e "s/\@FLAVOUR\@/${1}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
         ./template/etc/default/grub.d/siduction.cfg \
-        > etc/default/grub.d/siduction.cfg
+        > ./etc/default/grub.d/siduction.cfg
 }
 
 
@@ -98,7 +98,7 @@ function debian_rules {
         -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
         -e "s/\@DISPLAY\@/${DISPLAY}/g" \
         ./debtemplate/rules \
-        > debian/rules
+        > ./debian/rules
     chmod 755 debian/rules
 }
 
