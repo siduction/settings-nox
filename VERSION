@@ -3,7 +3,7 @@
 WALLPAPER=patience
 CODENAME_SAFE=patience
 DESCRIPTION=Patience
-VERSION=2016.1.0
+VERSION=2017.1.0
 DISTRIBUTION=unstable
 
 # Gdm3 and Gnome settings
