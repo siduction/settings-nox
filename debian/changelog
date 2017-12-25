@@ -1,3 +1,10 @@
+patience-nox-settings (2017.2.0-1) unstable; urgency=medium
+
+  * New release
+  * Bumped Standards and compat
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Dec 2017 21:10:30 +0100
+
 patience-nox-settings (2017.1.0-1) unstable; urgency=medium
 
   * release branding

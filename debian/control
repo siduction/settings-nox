@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
                dh-systemd
-Standards-Version: 3.9.8
+Standards-Version: 4.1.2
 Homepage: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
 Vcs-Browser: https://git.siduction.org/extra/siduction-nox.git
