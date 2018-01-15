@@ -2,25 +2,3 @@
 *~
 *.save
 
-## ignored package stuff
-/*/*.build
-/*/*.changes
-/*/*.deb
-/*/*.dsc
-/*/*.tar.xz
-/*/*.tar.bz2
-/*/*.upload
-
-
-# ignored debian $foo
-/*/*/debian/thunderstruck-*/
-/*/*/debian/paintitblack-*/
-/*/*/debian/whiteroom-*/
-
-/*/*/debian/files
-/*/*/debian/debhelper-build-stamp
-/*/*/debian/*.debhelper
-/*/*/debian/*.log
-/*/*/debian/*.substvars
-/*/*/debian/tmp
-
