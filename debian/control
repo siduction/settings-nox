@@ -1,33 +1,32 @@
-Source: @CODENAME_SAFE@-@FLAVOUR@-settings
+Source: @CODENAME_SAFE@-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 11),
                dh-systemd
-Standards-Version: 3.9.8
-Homepage: https://git.siduction.org/extra/siduction-@FLAVOUR@
-Vcs-Git: https://git.siduction.org/extra/siduction-@FLAVOUR@.git
-Vcs-Browser: https://git.siduction.org/extra/siduction-@FLAVOUR@.git
+Standards-Version: 4.1.3
+Homepage: https://git.siduction.org/extra/siduction-nox
+Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
+Vcs-Browser: https://git.siduction.org/extra/siduction-nox.git
 
-# @FLAVOUR@ Settings
-Package: @CODENAME_SAFE@-@FLAVOUR@-settings
+Package: @CODENAME_SAFE@-nox-settings
 Architecture: all
 Depends: ${misc:Depends},
          @CODENAME_SAFE@-common-settings
-Description: provide default @DISPLAY@ settings
- Provides default settings for appearance and applications of @DISPLAY@
+Description: provide default noX settings
+ Provides default settings for appearance and applications of noX
  in siduction.
  .
  This overrides nox's defaults used for new users, all settings remain
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: @CODENAME_SAFE@-@FLAVOUR@-livesettings
+Package: @CODENAME_SAFE@-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          @CODENAME_SAFE@-common-livesettings,
-         @CODENAME_SAFE@-@FLAVOUR@-settings
-Description: @DISPLAY@ settings in live mode
- Provides default settings for appearance and applications in @DISPLAY@ live mode.
+         @CODENAME_SAFE@-nox-settings
+Description: noX settings in live mode
+ Provides default settings for appearance and applications in noX live mode.
