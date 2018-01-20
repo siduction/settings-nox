@@ -1,4 +1,4 @@
-ource: @CODENAME_SAFE@-nox-settings
+Source: @CODENAME_SAFE@-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>

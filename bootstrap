@@ -19,7 +19,7 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     > ./debian/copyright
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    ../template/debian/${CODENAME_SAFE}-nox-lintian-overrides \
+    ../template/debian/${CODENAME_SAFE}-nox-livesettings.lintian-overrides \
     > ./debian/${CODENAME_SAFE}-nox-livesettings.lintian-overrides
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ../template/debian/${CODENAME_SAFE}-nox-livesettings.preinst \
