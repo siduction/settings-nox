@@ -1,0 +1,10 @@
+WALLPAPER=paintitblack
+CODENAME=PaintItBlack
+CODENAME_SAFE=paintitblack
+VERSION=2018.2.0
+DISTRIBUTION=unstable
+
+FLL_LIVE_USER=siducer
+
+# Gdm3 and Gnome settings
+BACKGROUND_RENDERING_OPTION="stretched"

@@ -2,7 +2,7 @@
 set -e
 
 
-source ./functions.sh
+[ -e ../template/zfunctions.sh ] && source ../template/zfunctions.sh
 
 source_version_info
 debian_changelog
@@ -15,50 +15,40 @@ debian_rules
 # debian
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
-    ./debtemplate/copyright \
+    ../template/debian/copyright \
     > ./debian/copyright
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/get-template \
-    > ./debian/get-template
-chmod 755 ./debian/get-template
-
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/lintian-overrides \
+    ../template/debian/${CODENAME_SAFE}-nox-lintian-overrides \
     > ./debian/${CODENAME_SAFE}-nox-livesettings.lintian-overrides
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/livesettings.preinst \
+    ../template/debian/${CODENAME_SAFE}-nox-livesettings.preinst \
     > ./debian/${CODENAME_SAFE}-nox-livesettings.preinst
+
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/livesettings.install \
+    ../template/debian/${CODENAME_SAFE}-nox-livesettings.install \
     > ./debian/${CODENAME_SAFE}-nox-livesettings.install
+
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/livesettings.service \
+    ../template/debian/${CODENAME_SAFE}-nox-livesettings.service \
     > ./debian/${CODENAME_SAFE}-nox-livesettings.service
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/settings.install \
+    ../template/debian/${CODENAME_SAFE}-nox-settings.install \
     > ./debian/${CODENAME_SAFE}-nox-settings.install
+
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./debtemplate/settings.postinst \
+    ../template/debian/${CODENAME_SAFE}-nox-settings.postinst \
     > ./debian/${CODENAME_SAFE}-nox-settings.postinst
 
-## template
-## fix me delete before copy
 
-cp -a template/* .
+## template
+
+cp -a ../template/etc .
+
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./template/nox-cheatcodes \
+    ../template/nox-cheatcodes \
     > ./nox-cheatcodes
 chmod 755 ./nox-cheatcodes
 

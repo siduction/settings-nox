@@ -3,11 +3,13 @@
 export DH_VERBOSE=1
 
 %:
-	dh $@ --with systemd
+	dh $@
+
+override_dh_installsystemd:
+	dh_installsystemd --no-start
 
 override_dh_installinit:
-	dh_systemd_enable
-	dh_installinit
+	# just do nothing
 
 override_dh_install:
 	dh_install --fail-missing
