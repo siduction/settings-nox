@@ -1,48 +1,4 @@
-paintitblack-nox-settings (2018.3.0-1) unstable; urgency=medium
-
-  * new bootstrap for 2018.3.0
-
- -- Alf Gaida <agaida@siduction.org>  Sun, 15 Apr 2018 15:48:48 +0200
-
-paintitblack-nox-settings (2016.08.03) unstable; urgency=medium
-
-  * new bootstrap
-
- -- Alf Gaida <agaida@siduction.org>  Wed, 10 Aug 2016 20:11:53 +0200
-
-paintitblack-nox-settings (2016.06.20) unstable; urgency=medium
-
-  * Bump standards to 3.9.8, no changes needed 
-  * Fixed copyright
-
- -- Alf Gaida <agaida@siduction.org>  Sat, 25 Jun 2016 12:43:36 +0200
-
-paintitblack-nox-settings (2016.03.30) unstable; urgency=medium
-
-  * new bootstrap
-  * added $foo-common-settings as dependendcy
-
- -- Alf Gaida <agaida@siduction.org>  Wed, 30 Mar 2016 17:28:05 +0200
-
-paintitblack-nox-settings (2016.03.25) unstable; urgency=medium
-
-  * new bootstrap 
-
- -- Alf Gaida <agaida@siduction.org>  Fri, 25 Mar 2016 00:58:05 +0100
-
-paintitblack-nox-settings (2015.12.29) unstable; urgency=medium
-
-  * new bootstrap
-
- -- Alf Gaida <agaida@siduction.org>  Wed, 30 Dec 2015 01:51:36 +0100
-
-paintitblack-nox-settings (2015.08.01) unstable; urgency=medium
-
-  * new package, reworked 
-
- -- Alf Gaida <agaida@siduction.org>  Sat, 08 Aug 2015 12:28:54 +0200
-
-paintitblack-nox-settings (2015.1.0) unstable; urgency=medium
+xperimental-nox-settings (2019.1.0~1) unstable; urgency=medium
 
   * Initial Release.
 

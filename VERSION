@@ -1,7 +1,7 @@
-WALLPAPER=paintitblack
-CODENAME=PaintItBlack
-CODENAME_SAFE=paintitblack
-VERSION=2018.3.0
+WALLPAPER=xperimental
+CODENAME=Xperimental
+CODENAME_SAFE=xperimental
+VERSION=2019.1.0
 DISTRIBUTION=unstable
 
 FLL_LIVE_USER=siducer
