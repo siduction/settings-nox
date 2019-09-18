@@ -6,9 +6,9 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.0
-Homepage: https://git.siduction.org/extra/siduction-nox
+Vcs-Browser: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
-Vcs-Browser: https://git.siduction.org/extra/siduction-nox.git
+Homepage: https://git.siduction.org/extra/siduction-nox
 
 Package: xperimental-nox-settings
 Architecture: all
