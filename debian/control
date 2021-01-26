@@ -1,4 +1,4 @@
-Source: patience-nox-settings
+Source: c-blues-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,10 +10,10 @@ Vcs-Browser: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
 Homepage: https://git.siduction.org/extra/siduction-nox
 
-Package: patience-nox-settings
+Package: c-blues-nox-settings
 Architecture: all
 Depends: ${misc:Depends},
-         patience-common-settings
+         c-blues-common-settings
 Description: provide default noX settings (installed mode)
  Provides default settings for appearance and applications of noX
  in siduction.
@@ -22,10 +22,10 @@ Description: provide default noX settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: patience-nox-livesettings
+Package: c-blues-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         patience-common-livesettings,
-         patience-nox-settings
+         c-blues-common-livesettings,
+         c-blues-nox-settings
 Description: noX settings (live mode)
  Provides default settings for appearance and applications in noX live mode.

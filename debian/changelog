@@ -1,3 +1,9 @@
+c-blues-nox-settings (2021.1.0) UNRELEASED; urgency=medium
+
+  * preparing 21.1 release c-blues 
+
+ -- Hendrik Lehmbruch <hendrikl@siduction.org>  Tue, 26 Jan 2021 21:38:33 +0100
+
 patience-nox-settings (2018.2.0-2) unstable; urgency=medium
 
   * release 18.3
