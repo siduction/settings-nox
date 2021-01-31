@@ -1,4 +1,4 @@
-Source: c-blues-nox-settings
+Source: cblues-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,10 +10,10 @@ Vcs-Browser: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
 Homepage: https://git.siduction.org/extra/siduction-nox
 
-Package: c-blues-nox-settings
+Package: cblues-nox-settings
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-common-settings
+         cblues-common-settings
 Description: provide default noX settings (installed mode)
  Provides default settings for appearance and applications of noX
  in siduction.
@@ -22,10 +22,10 @@ Description: provide default noX settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: c-blues-nox-livesettings
+Package: cblues-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-common-livesettings,
-         c-blues-nox-settings
+         cblues-common-livesettings,
+         cblues-nox-settings
 Description: noX settings (live mode)
  Provides default settings for appearance and applications in noX live mode.
