@@ -11,6 +11,8 @@ fi
 case "$1" in
     configure)
         cp -af /usr/share/cblues-nox-settings/etc/*  /etc
+        ## enable iwd.service ##
+        systemctl enable --now iwd.service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
