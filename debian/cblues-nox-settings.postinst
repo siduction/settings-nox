@@ -11,6 +11,9 @@ fi
 case "$1" in
     configure)
         cp -af /usr/share/cblues-nox-settings/etc/*  /etc
+        ## stop wpa ##
+        systemctl stop wpa_supplicant.service
+        systemctl mask wpa_supplicant.service
         ## enable iwd.service ##
         systemctl enable --now iwd.service
     ;;
