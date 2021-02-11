@@ -18,6 +18,15 @@ fi
 
 FLL_LIVE_USER_HOME=$(getent passwd ${FLL_LIVE_USER} | cut -d \: -f 6)
 
+#disable wpa-supplicant
+systemctl stop wpa_supplicant.service
+systemctl mask wpa_supplicant.service
+
+#bring iwd in
+systemctl stop NetworkManager.service
+systemctl enable --now iwd.service
+systemctl start NetworkManager.service
+
 ###
 # cheatcode handling
 ###

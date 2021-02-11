@@ -8,4 +8,4 @@ Type=oneshot
 ExecStart=/usr/share/cblues-nox-livesettings/nox-cheatcodes start
 
 [Install]
-WantedBy=graphical.target
+WantedBy=multi-user.target
