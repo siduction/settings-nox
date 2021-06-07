@@ -1,11 +1,11 @@
 [Unit]
 Description=NOX cheatcodes in live media
-ConditionPathExists=/usr/share/cblues-nox-livesettings/
+ConditionPathExists=/usr/share/farwell-nox-livesettings/
 After=cblues-common-livesettings.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/share/cblues-nox-livesettings/nox-cheatcodes start
+ExecStart=/usr/share/farwell-nox-livesettings/nox-cheatcodes start
 
 [Install]
 WantedBy=multi-user.target
