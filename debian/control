@@ -26,6 +26,6 @@ Package: farwell-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          farwell-common-livesettings,
-         farwell-nox-settings
+         farewell-nox-settings
 Description: noX settings (live mode)
  Provides default settings for appearance and applications in noX live mode.

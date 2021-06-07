@@ -10,7 +10,7 @@ fi
 
 case "$1" in
     configure)
-        cp -af /usr/share/farwell-nox-settings/etc/*  /etc
+        cp -af /usr/share/farewell-nox-settings/etc/*  /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
