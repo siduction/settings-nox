@@ -1,3 +1,9 @@
+farewell-nox-settings (2021.2.0-1) unstable; urgency=medium
+
+  * set final version
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Jul 2021 14:55:49 +0200
+
 farewell-nox-settings (2021.1.99-1) unstable; urgency=medium
 
   * prepare farewell release
