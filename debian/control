@@ -1,4 +1,4 @@
-Source: farewell-nox-settings
+Source: 2021-03-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,10 +10,10 @@ Vcs-Browser: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
 Homepage: https://git.siduction.org/extra/siduction-nox
 
-Package: farewell-nox-settings
+Package: 2021-03-nox-settings
 Architecture: all
 Depends: ${misc:Depends},
-         farewell-common-settings
+         2021-03-common-settings
 Description: provide default noX settings (installed mode)
  Provides default settings for appearance and applications of noX
  in siduction.
@@ -22,10 +22,10 @@ Description: provide default noX settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: farewell-nox-livesettings
+Package: 2021-03-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         farewell-common-livesettings,
-         farewell-nox-settings
+         2021-03-common-livesettings,
+         2021-03-nox-settings
 Description: noX settings (live mode)
  Provides default settings for appearance and applications in noX live mode.
