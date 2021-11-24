@@ -1,11 +1,11 @@
 [Unit]
 Description=NOX cheatcodes in live media
-ConditionPathExists=/usr/share/2021-03-nox-livesettings/
+ConditionPathExists=/usr/share/wintersky-nox-livesettings/
 After=cblues-common-livesettings.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/share/2021-03-nox-livesettings/nox-cheatcodes start
+ExecStart=/usr/share/wintersky-nox-livesettings/nox-cheatcodes start
 
 [Install]
 WantedBy=multi-user.target

@@ -1,4 +1,4 @@
-Source: 2021-03-nox-settings
+Source: wintersky-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,10 +10,10 @@ Vcs-Browser: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
 Homepage: https://git.siduction.org/extra/siduction-nox
 
-Package: 2021-03-nox-settings
+Package: wintersky-nox-settings
 Architecture: all
 Depends: ${misc:Depends},
-         2021-03-common-settings
+         wintersky-common-settings
 Description: provide default noX settings (installed mode)
  Provides default settings for appearance and applications of noX
  in siduction.
@@ -22,10 +22,10 @@ Description: provide default noX settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: 2021-03-nox-livesettings
+Package: wintersky-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         2021-03-common-livesettings,
-         2021-03-nox-settings
+         wintersky-common-livesettings,
+         wintersky-nox-settings
 Description: noX settings (live mode)
  Provides default settings for appearance and applications in noX live mode.
