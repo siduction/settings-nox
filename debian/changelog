@@ -1,3 +1,9 @@
+wintersky-nox-settings (2021.2.99-1) unstable; urgency=medium
+
+  * prepare wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 28 Nov 2021 11:25:54 +0100
+
 farewell-nox-settings (2021.2.0-1) unstable; urgency=medium
 
   * set final version
