@@ -1,3 +1,9 @@
+wintersky-nox-settings (2021.2.99-2) unstable; urgency=medium
+
+  * removed /etc/default/grub.d
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 09:35:38 +0100
+
 wintersky-nox-settings (2021.2.99-1) unstable; urgency=medium
 
   * prepare wintersky release
