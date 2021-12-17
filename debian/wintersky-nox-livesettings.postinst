@@ -10,7 +10,10 @@ fi
 
 case "$1" in
     configure)
-        cp -af /usr/share/wintersky-nox-settings/etc/canto  /etc
+	## NetworkManager ##
+	cp -af /usr/share/wintersky-lxqt-settings/etc/NetworkManager           /etc
+	## iwd ##
+	cp -af /usr/share/wintersky-lxqt-settings/etc/iwd                      /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

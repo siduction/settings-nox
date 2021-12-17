@@ -1,3 +1,9 @@
+wintersky-nox-settings (2021.2.99-3) unstable; urgency=medium
+
+  * put iwd to livesettings.psotinst from settings.postinst
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 17 Dec 2021 13:47:18 +0100
+
 wintersky-nox-settings (2021.2.99-2) unstable; urgency=medium
 
   * removed /etc/default/grub.d
