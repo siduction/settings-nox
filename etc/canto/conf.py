@@ -6,7 +6,7 @@
 #add("http://kerneltrap.org/node/feed")
 #add("http://codezen.org/canto/feeds/latest")
 
-add("https://siduction.org/feed/", tags=["news.siduction.org"])
+add("https://siduction.org/feed/", tags=["siduction.org"])
 add("https://www.linux-magazin.de/feed/", tags=["Linux-Magazin Online News"])
 add("https://www.kernel.org/feeds/kdist.xml", tags=["Latest Linux Kernel Versions"])
 add("https://distrowatch.com/news/dw.xml", tags=["DistroWatch.com: News"])
