@@ -10,10 +10,7 @@ fi
 
 case "$1" in
     configure)
-	## NetworkManager ##
-	cp -af /usr/share/wintersky-nox-settings/etc/NetworkManager           /etc
-	## iwd ##
-	cp -af /usr/share/wintersky-nox-settings/etc/iwd                      /etc
+        cp -af /usr/share/mow-nox-settings/etc/canto  /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
