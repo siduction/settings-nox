@@ -1,0 +1,30 @@
+#!/bin/sh
+# postinst script for #PACKAGE#
+
+set -e
+
+if [ -f /etc/default/distro ]; then
+    . /etc/default/distro
+fi
+
+
+case "$1" in
+    configure)
+	## NetworkManager ##
+	cp -af /usr/share/giants-nox-settings/etc/NetworkManager           /etc
+	## iwd ##
+	cp -af /usr/share/giants-nox-settings/etc/iwd                      /etc
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

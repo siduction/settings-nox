@@ -1,3 +1,39 @@
+giants-nox-settings (2023.1-1) unstable; urgency=medium
+
+  * prepare release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Aug 2023 16:53:26 +0200
+
+mow-nox-settings (2022.1.0-1) unstable; urgency=medium
+
+  * prepare Masters of War release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 14 Dec 2022 20:29:29 +0100
+
+wintersky-nox-settings (2021.3.0-1) unstable; urgency=medium
+
+  * witersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 22 Dec 2021 14:37:35 +0100
+
+wintersky-nox-settings (2021.2.99-3) unstable; urgency=medium
+
+  * put iwd to livesettings.psotinst from settings.postinst
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Fri, 17 Dec 2021 13:47:18 +0100
+
+wintersky-nox-settings (2021.2.99-2) unstable; urgency=medium
+
+  * removed /etc/default/grub.d
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 09:35:38 +0100
+
+wintersky-nox-settings (2021.2.99-1) unstable; urgency=medium
+
+  * prepare wintersky release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 28 Nov 2021 11:25:54 +0100
+
 farewell-nox-settings (2021.2.0-1) unstable; urgency=medium
 
   * set final version
