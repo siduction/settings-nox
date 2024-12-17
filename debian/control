@@ -1,4 +1,4 @@
-Source: giants-nox-settings
+Source: shine-on-nox-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -10,10 +10,10 @@ Vcs-Browser: https://git.siduction.org/extra/siduction-nox
 Vcs-Git: https://git.siduction.org/extra/siduction-nox.git
 Homepage: https://git.siduction.org/extra/siduction-nox
 
-Package: giants-nox-settings
+Package: shine-on-nox-settings
 Architecture: all
 Depends: ${misc:Depends},
-         giants-common-settings
+         shine-on-common-settings
 Description: provide default noX settings (installed mode)
  Provides default settings for appearance and applications of noX
  in siduction.
@@ -22,10 +22,10 @@ Description: provide default noX settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: giants-nox-livesettings
+Package: shine-on-nox-livesettings
 Architecture: all
 Depends: ${misc:Depends},
-         giants-common-livesettings,
-         giants-nox-settings
+         shine-on-common-livesettings,
+         shine-on-nox-settings
 Description: noX settings (live mode)
  Provides default settings for appearance and applications in noX live mode.

@@ -1,3 +1,9 @@
+shine-on-nox-settings (2024.1-1) unstable; urgency=medium
+
+  * prepare 2024.1 release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 17 Dec 2024 22:00:01 +0100
+
 giants-nox-settings (2023.1-1) unstable; urgency=medium
 
   * prepare release
