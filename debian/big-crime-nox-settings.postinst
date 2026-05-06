@@ -10,7 +10,7 @@ fi
 
 case "$1" in
     configure)
-        cp -af /usr/share/shine-on-nox-settings/etc/canto  /etc
+        cp -af /usr/share/big-crime-nox-settings/etc/canto  /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
